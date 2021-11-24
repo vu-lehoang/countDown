@@ -1,0 +1,103 @@
+@media screen and (max-width: 1025px){
+    .wrap-lead-banner .banner-count{
+        right: 60px;
+    }
+}
+@media screen and (max-width: 769px){
+    .wrap-lead-banner{
+        background-size: 1400px;
+        overflow: hidden;
+        height: 70px;
+    }
+    .wrap-lead-banner .banner-count{
+        font-size: 14px;
+        right: 60px;
+        top: 28px;
+    }
+    .time-text--day{
+        left: 6%;
+    }
+    .time-text--hour{
+        left: 30%;
+    }
+    .time-text--min{
+        left: 55%;
+    }
+    .time-text--sec{
+        left: 83%;
+    }
+    .time-text p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 541px){
+    .wrap-lead-banner{
+        background-size: 1000px;
+        height: 60px;
+    }
+    .wrap-lead-banner .banner-count{
+        right: 6px;
+        top: 20px;
+    }
+}
+@media screen and (max-width: 415px){
+    .wrap-lead-banner{
+        background-size: 600px;
+        height: 40px;
+        
+    }
+    .wrap-lead-banner .banner-count{
+        right: 55px;
+        top: 15px;
+        font-size: 8px;
+    }
+    .time-box{
+        padding: 2px;
+    }
+    .time-text{
+        display: none;
+    }
+}
+@media screen and (max-width: 376px){
+    .wrap-lead-banner{
+        background-size: 650px;
+        height: 40px;
+    }
+    .wrap-lead-banner .banner-count{
+        right: 35px;
+        top: 15px;
+        font-size: 8px;
+    }
+    .wrap-lead-banner .banner-count{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 321px){
+    .wrap-lead-banner .banner-count{
+        right: 12px;
+    }
+}
+@media screen and (max-width: 281px){
+    .wrap-lead-banner{
+        background-size: 530px;
+        height: 30px;
+    }
+    .wrap-lead-banner .banner-count{
+        right: 18px;
+    }
+    .time-box{
+        padding: 1px;
+        background-size: 550px;
+    }
+}
+
+@media screen and (min-width: 1299px){
+    .wrap-lead-banner .banner-count{
+        right: 205px;
+    }
+}
+@media screen and (min-width: 1899px){
+    .wrap-lead-banner .banner-count{
+        right: 500px;
+    }
+}
